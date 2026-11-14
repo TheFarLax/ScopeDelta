@@ -1,0 +1,133 @@
+{
+  "network": "Studionet",
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "contract_address": "0x45a63Aa2E7F34C3767D2FaecD99AA62b379AE37C",
+  "deploy_tx": "0x52829fc542d097b1eaff4a8d7d40a5218618a0cd1f17ccb6fdce1dd09215efb8",
+  "deploy_status": "FINALIZED",
+  "execution_result": "SUCCESS",
+  "source_matches_deployed_code": true,
+  "source_sha256": "938e86696f415317c766cefe724544058683ac35c1862c715b99a64ee4322d90",
+  "live_ai": {
+    "status": "PASSED",
+    "transactions": [
+      {
+        "method": "create_scope",
+        "tx_hash": "0x11d9a16dbaf8c5f370e921b9b0b02cbfe27fb8a09b728caaaa385e9ae2569413",
+        "status": "FINALIZED",
+        "consensus": "MAJORITY_AGREE",
+        "execution_result": "SUCCESS"
+      },
+      {
+        "method": "accept_scope",
+        "tx_hash": "0x55379337b321c1c9ecf48adb0258c7aea608c41a25095851348f31e43784a36c",
+        "status": "FINALIZED",
+        "consensus": "MAJORITY_AGREE",
+        "execution_result": "SUCCESS"
+      },
+      {
+        "method": "submit_change",
+        "tx_hash": "0x3dd929897de831ea05366c620921ef36ceadeda7394e514f88d029bcb0104861",
+        "status": "FINALIZED",
+        "consensus": "MAJORITY_AGREE",
+        "execution_result": "SUCCESS"
+      },
+      {
+        "method": "evaluate_change",
+        "tx_hash": "0xb2194775082d71a3bed94668cd28e858ab6abc1627f8e207156480124c5a88a4",
+        "status": "FINALIZED",
+        "consensus": "MAJORITY_AGREE",
+        "execution_result": "SUCCESS"
+      },
+      {
+        "method": "submit_change",
+        "tx_hash": "0x35b5d53450a56b50a04ac6fdbd8aa00e66a7bf3431548ad70c857b6d9ca3fe02",
+        "status": "FINALIZED",
+        "consensus": "MAJORITY_AGREE",
+        "execution_result": "SUCCESS"
+      },
+      {
+        "method": "evaluate_change",
+        "tx_hash": "0x52643640cf51f5761e2c2a9a43ab9e3bf97f3a81deb11a95f52a3dbbc690010c",
+        "status": "FINALIZED",
+        "consensus": "MAJORITY_AGREE",
+        "execution_result": "SUCCESS"
+      },
+      {
+        "method": "submit_change",
+        "tx_hash": "0x5597889839effb69955a9eb5bd9bb7361b02cdeeb6f62feaa4d20e5d2c79af35",
+        "status": "FINALIZED",
+        "consensus": "MAJORITY_AGREE",
+        "execution_result": "SUCCESS"
+      },
+      {
+        "method": "evaluate_change",
+        "tx_hash": "0x22cda337f481bc0247b1c887b77baa970ab4b3cc47d1a8735921917d56c24a7e",
+        "status": "FINALIZED",
+        "consensus": "MAJORITY_AGREE",
+        "execution_result": "SUCCESS"
+      }
+    ],
+    "verdicts": [
+      {
+        "change_id": "1",
+        "expected": {
+          "decision": "WITHIN_SCOPE",
+          "reason_code": "INCLUDED_WORK"
+        },
+        "returned": {
+          "decision": "WITHIN_SCOPE",
+          "reason_code": "INCLUDED_WORK"
+        },
+        "saved": {
+          "decision": "WITHIN_SCOPE",
+          "reason_code": "INCLUDED_WORK"
+        },
+        "status": "EVALUATED",
+        "request": "Set the body font size to 18px.",
+        "evaluation_tx": "0xb2194775082d71a3bed94668cd28e858ab6abc1627f8e207156480124c5a88a4"
+      },
+      {
+        "change_id": "2",
+        "expected": {
+          "decision": "CHANGE_ORDER_REQUIRED",
+          "reason_code": "EXCLUDED_OR_ADDITIONAL_WORK"
+        },
+        "returned": {
+          "decision": "CHANGE_ORDER_REQUIRED",
+          "reason_code": "EXCLUDED_OR_ADDITIONAL_WORK"
+        },
+        "saved": {
+          "decision": "CHANGE_ORDER_REQUIRED",
+          "reason_code": "EXCLUDED_OR_ADDITIONAL_WORK"
+        },
+        "status": "EVALUATED",
+        "request": "Add user registration and login.",
+        "evaluation_tx": "0x52643640cf51f5761e2c2a9a43ab9e3bf97f3a81deb11a95f52a3dbbc690010c"
+      },
+      {
+        "change_id": "3",
+        "expected": {
+          "decision": "AMBIGUOUS",
+          "reason_code": "INSUFFICIENT_OR_CONFLICTING_TERMS"
+        },
+        "returned": {
+          "decision": "AMBIGUOUS",
+          "reason_code": "INSUFFICIENT_OR_CONFLICTING_TERMS"
+        },
+        "saved": {
+          "decision": "AMBIGUOUS",
+          "reason_code": "INSUFFICIENT_OR_CONFLICTING_TERMS"
+        },
+        "status": "EVALUATED",
+        "request": "Make it better.",
+        "evaluation_tx": "0x22cda337f481bc0247b1c887b77baa970ab4b3cc47d1a8735921917d56c24a7e"
+      }
+    ],
+    "scope_id": "1"
+  },
+  "finalized_get_counts_before_run": {
+    "changes": 0,
+    "scopes": 0
+  }
+}
